@@ -20,7 +20,7 @@ function startGame() {
 
 function optionClicked(id) {
     if(id === "home"){
-        window.location.href = "main.html";
+        window.location.href = "index.html";
     } else if (id === "sound"){
         var soundBtn = document.getElementById(id);
         clickAudio.play();
